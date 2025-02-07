@@ -14,7 +14,7 @@ import NotFound from './pages/NotFoundPage.tsx'
 
 import 'react-loading-skeleton/dist/skeleton.css'
 
-createRoot(document.getElementById("root")!).render(
+createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Provider store={store}>
       <BrowserRouter>
@@ -29,5 +29,5 @@ createRoot(document.getElementById("root")!).render(
         </Routes>
       </BrowserRouter>
     </Provider>
-  </StrictMode>,
+  </StrictMode>
 )

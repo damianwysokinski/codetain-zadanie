@@ -1,9 +1,9 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 body {
-    font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 @theme {
-    --container-5xl: 1000px;
+  --container-5xl: 1000px;
 }

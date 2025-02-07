@@ -4,14 +4,14 @@ import HeroSection from '../containers/about-page/hero-section'
 import TechnologiesSection from '../containers/about-page/technologies-section'
 
 const AboutPage: React.FC = () => {
-    return (
-        <>
-            <HeroSection />
-            <AboutSection />
-            <GallerySection />
-            <TechnologiesSection />
-        </>
-    )
+  return (
+    <>
+      <HeroSection />
+      <AboutSection />
+      <GallerySection />
+      <TechnologiesSection />
+    </>
+  )
 }
 
 export default AboutPage
