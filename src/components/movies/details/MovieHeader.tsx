@@ -16,6 +16,17 @@ const MovieHeader: React.FC<MovieHeaderProps> = ({
       <Skeleton height={384} className="w-full mb-12" />
     ) : (
       <picture>
+        <source
+          srcSet={`${imageUrl}-thumb.webp`}
+          type="image/webp"
+          media="(max-width: 767px)"
+        />
+        <source
+          srcSet={`${imageUrl}-thumb.jpg`}
+          type="image/jpeg"
+          media="(max-width: 767px)"
+        />
+
         <source srcSet={`${imageUrl}.webp`} type="image/webp" />
         <source srcSet={`${imageUrl}.jpg`} type="image/jpeg" />
         <img

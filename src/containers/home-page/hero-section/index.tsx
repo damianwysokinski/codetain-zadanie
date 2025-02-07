@@ -2,8 +2,20 @@ const HeroSection: React.FC = () => {
   return (
     <section className="relative px-4 md:px-16 flex items-center border-b border-gray-200 h-screen">
       <picture>
+        <source
+          srcSet="/hero-bg-mobile.webp"
+          type="image/webp"
+          media="(max-width: 767px)"
+        />
+        <source
+          srcSet="/hero-bg-mobile.jpg"
+          type="image/jpeg"
+          media="(max-width: 767px)"
+        />
+
         <source srcSet="/hero-bg.webp" type="image/webp" />
         <source srcSet="/hero-bg.jpg" type="image/jpeg" />
+
         <img
           src="/hero-bg.jpg"
           alt=""
