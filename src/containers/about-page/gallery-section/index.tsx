@@ -1,9 +1,10 @@
+import SectionTitle from '../../../components/common/SectionTitle'
 import SectionWrapper from '../../../components/common/SectionWrapper'
 
 const GallerySection: React.FC = () => {
   return (
     <SectionWrapper>
-      <h2 className="text-base text-gray-500 uppercase mb-8">Gallery</h2>
+      <SectionTitle title="Gallery" />
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
         <div>
           <picture>

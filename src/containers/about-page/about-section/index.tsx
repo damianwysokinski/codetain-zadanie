@@ -1,9 +1,10 @@
+import SectionTitle from '../../../components/common/SectionTitle'
 import SectionWrapper from '../../../components/common/SectionWrapper'
 
 const AboutSection: React.FC = () => {
   return (
     <SectionWrapper>
-      <h2 className="text-base text-gray-500 uppercase mb-8">About me</h2>
+      <SectionTitle title="About me" />
 
       <p className="mb-6 text-base text-gray-900">
         Hello! I'm Damian, a passionate frontend developer from Poland with a

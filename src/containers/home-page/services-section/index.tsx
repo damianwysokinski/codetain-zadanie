@@ -1,10 +1,11 @@
+import SectionTitle from '../../../components/common/SectionTitle'
 import SectionWrapper from '../../../components/common/SectionWrapper'
 import ServiceItem from '../../../components/ServiceItem'
 
 const ServicesSection: React.FC = () => {
   return (
     <SectionWrapper>
-      <h2 className="text-base text-gray-500 uppercase mb-8">Services</h2>
+      <SectionTitle title="Services" />
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
         <ServiceItem
