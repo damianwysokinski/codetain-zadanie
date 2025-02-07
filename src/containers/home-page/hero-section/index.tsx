@@ -18,7 +18,7 @@ const HeroSection: React.FC = () => {
 
         <img
           src="/hero-bg.jpg"
-          alt=""
+          alt="A clear blue sky above majestic mountains, creating a serene and picturesque landscape."
           className="w-full h-full object-cover absolute top-0 left-0"
         />
       </picture>
